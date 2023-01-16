@@ -1,1 +1,3 @@
-
+# Base configuration
+markdown: kramdown
+theme: hacker
