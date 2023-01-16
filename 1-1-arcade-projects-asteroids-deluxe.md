@@ -17,4 +17,4 @@ His friend was shocked and grateful, and he thanked HerrG profusely. From that d
 
 The two friends remained close, and HerrG's act of kindness had brought them even closer together. HerrG was happy to have been able to help his friend, and he knew that the memories of their friendship would last a lifetime.
 
-[](https://user-images.githubusercontent.com/17674324/212765056-a8c0f13d-4d27-403d-bc18-9d692526693b.jpg)
+![](https://user-images.githubusercontent.com/17674324/212765056-a8c0f13d-4d27-403d-bc18-9d692526693b.jpg)
