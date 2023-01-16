@@ -2,7 +2,7 @@ Welcome to Bananes website. Here I will document all my stuff.
 
 This site was created at the beginning of 2023 because I was getting too lazy to document my private projects within the own repos and needed a general overview. 
 
-Also it's quite cumbersome to upload the content on the two platforms I mainly use: 
+Also it's quite cumbersome to upload content on the two platforms I mainly use: 
 - [GroovyMAME / GroovyArcade Discord](https://discord.gg/YtQ6pJh)
 - [Forum Arcade Zone](https://forum.arcade-zone.de)
 
