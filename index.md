@@ -11,6 +11,6 @@ Also it's quite cumbersome to upload content on the two platforms I mainly use:
 - [GroovyMAME / GroovyArcade Discord](https://discord.gg/YtQ6pJh)
 - [Forum Arcade Zone](https://forum.arcade-zone.de)
 
-Why in English and not in German?  I'm not a hipster, blame all the French, Irish, Spanish, Americans, Australians etc you have to deal with in your hobbies these days. 
+Why in English and not in German?  I'm not a hipster, blame all the French, Irish, English, Swedish, Norwegian, Finns, Spanish, Americans, Australians etc you have to deal with in your hobbies these days. 
 
 Have fun or look away. And above all: cheers !
