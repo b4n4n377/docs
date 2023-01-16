@@ -1,8 +1,6 @@
-# Main
-
 Welcome to Bananes website. Here I will document all my stuff. 
 
-This site was created because I'm getting too lazy to document my private projects within the own repos and need a general overview. 
+This site was created at the beginning of 2023 because I was getting too lazy to document my private projects within the own repos and needed a general overview. 
 
 Also it's quite cumbersome to upload the content on the two platforms I mainly use: 
 - GroovyMAME / GroovyArcade discord: https://discord.gg/YtQ6pJh
