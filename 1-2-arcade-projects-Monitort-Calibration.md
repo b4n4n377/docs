@@ -26,9 +26,10 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 2. ### Prepare Screen Setting
 - **Gain Red (RV1) and Blue (RV6):** Middle Position
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** Low Position
-- **Contrast (RV405)**: Middle Position
-- **Brightness (RV406)**: Low Position
-- **Set Black Screen :**: R:0x00, G:0x00, B:0x00
+- **Contrast (RV405):** Middle Position
+- **Brightness (RV406)** Low Position
+- **Set Black Pictures:** R:0x00, G:0x00, B:0x00
+- **Screen Pot:** Low Position &rarr; Slightly Visible
 
 
 2. ### Prepare HFCR
