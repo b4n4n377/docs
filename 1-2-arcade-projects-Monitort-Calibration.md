@@ -28,7 +28,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** Low Position
 - **Contrast (RV405)**: Middle Position
 - **Brightness (RV406)**: Low Position
-- **Change white to black in menu:**: R,G,B off
+- **Change white to black in menu:**: Colors R,G,B off
 
 
 2. ### Prepare HFCR
