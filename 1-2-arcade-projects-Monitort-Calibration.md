@@ -19,11 +19,15 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 ## Steps
 
-1. ### Heat up monitor tube 
+1. ### Prepare HFCR
+- File &rarr; New &rarr; Generator: DVD manual &rarr; Sensor: X-Rite DisplayPro &rarr; No correction file &rarr; Finish
+- Display Type: CRT, Reading Type: Display, Rest: default &rarr; Okay
+
+2. ### Heat up monitor tube 
 - **White Screen Pattern:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
 - **Time**: 10-60 minutes 
 
-2. ### Set Flyback Screen Dial
+3. ### Set Flyback Screen Dial
 - **Gain Red (RV1) and Blue (RV6):** middle
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** low
 - **Contrast (RV405):** middle
@@ -31,7 +35,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Set Black Pictures:** R:0x00, G:0x00, B:0x00
 - **Screen Pot:** low &rarr; picture slightly visible
 
-3. ### Set Contrast and Brightness 
+4. ### Set Contrast and Brightness 
 - **Gain Red (RV1) and Blue (RV6):** middle
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** middle
 - **Contrast (RV405):** middle
@@ -39,13 +43,11 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **100 IRE Pattern:** Test Patterns → Color & Black Levels → 100 IRE
 - **Value Y ftl:** dial Contrast → 35 Y ftl.
 - **Note Value Y:** 120 (in my case)
-- **Adjust IRE Level in 240P Suite:** set 10 IRE (with shoulder pads L and R)
+- **Set IRE Level:** 10 IRE (with shoulder pads L and R)
 - **Value Y ftl:** dial Brightness → 0,0065 x Y value before → Y 0,78 (in my case, adjust Screen a hair if not low enough)
 
-
-2. ### Prepare HFCR
-- File &rarr; New &rarr; Generator: DVD manual &rarr; Sensor: X-Rite DisplayPro &rarr; No correction file &rarr; Finish
-- Display Type: CRT, Reading Type: Display, Rest: default &rarr; Okay
+5. ### Set Gain and Cutoff 
+- **Set IRE Level:** 10 IRE (with shoulder pads L and R)
 
 
 
