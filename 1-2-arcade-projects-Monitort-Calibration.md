@@ -20,7 +20,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 ## Steps
 
 1. ### Heat up monitor tube 
-- **White screen in menu:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
+- **White Screen Pattern:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
 - **Time**: 10-60 minutes 
 
 2. ### Set Flyback Screen Dial
@@ -36,6 +36,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** middle
 - **Contrast (RV405):** middle
 - **Brightness (RV406)** middle
+- **100 IRE Pattern:** Test Patterns → Color & Black Levels → 100 IRE
 
 
 
