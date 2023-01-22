@@ -28,10 +28,9 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - test
 
 
-2. ### Start HFCR
-Let the monitor tube heat up with a constant white picture. The guide says 1 hour, the service manual mentions 10 minutes. Chose yourself.
-- Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
-- 10 minutes 
+2. ### Prepare HFCR
+- File &rarr; New &rarr; Generator: DVD manual &rarr; Sensor: X-Rite DisplayPro &rarr; No meter correction file &rarr; Finish
+
 
 
 
