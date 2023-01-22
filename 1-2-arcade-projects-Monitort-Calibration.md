@@ -52,5 +52,9 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 6. ### Repeat Steps 4 and 5 once  
 
+7. ### Verify Calibration
+- Measures &rarr; Grey Scale &rarr; Follow instructions and take a measurement IRE values 10-100
 
+
+ 
 
