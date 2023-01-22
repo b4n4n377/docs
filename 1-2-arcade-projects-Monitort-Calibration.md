@@ -23,11 +23,12 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **White screen in menu:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
 - **Time**: 10-60 minutes 
 
-2. ### Prepare the monitor chassis - Screen
+2. ### Prepare Screen Setting
 - **Gain Red (RV1) and Blue (RV6):** Middle Position
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** Low Position
 - **Contrast (RV405)**: Middle Position
 - **Brightness (RV406)**: Low Position
+- **Change white to black in menu:**: R,G,B off
 
 
 2. ### Prepare HFCR
