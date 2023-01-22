@@ -13,7 +13,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Source**: [Thread Forum Arcade Projects](https://www.arcade-projects.com/threads/arcade-monitor-calibration-guides.17183)
 - **Colorimeter used**: [Calibrite ColorChecker Display Pro](https://calibrite.com/)
 - **Arcade Monitor used**: [Hantarex Polo 25](http://files.arcadeinfo.de/Monitore/Hantarex%20Polo.pdf)
-- **Test Pattern Software used**:[240P Test Suite Rom](https://artemiourbina.itch.io/240p-test-suite) on [GroovyArcade with SNES emulator](https://gitlab.com/groovyarcade/support/-/wikis/1-About-GroovyArcade/1.1-Welcome)
+- **Test Pattern Software used**:[240P Test Suite Rom Sega Dreamcast](https://artemiourbina.itch.io/240p-test-suite) on [GroovyArcade with Flycast Emulator / Retroarch](https://gitlab.com/groovyarcade/support/-/wikis/1-About-GroovyArcade/1.1-Welcome)
 - **Monitor Calibration Software used**: [hfcr](https://sourceforge.net/projects/hcfr/)
 
 
