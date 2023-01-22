@@ -47,7 +47,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Value Y ftl:** dial Brightness → 0,0065 x Y value before → Y 0,78 (in my case, adjust Screen a hair if not low enough)
 
 5. ### Set Gain and Cutoff 
-- **Set IRE Level:** 80 IRE for Gain, 30 IRE for Cutoff
+- **Set IRE Levels:** 80 IRE for Gain, 30 IRE for Cutoff
 - **Dial Pots until:** R 100%, G 100%, B 100%, Delta E 0,0 
 
 
