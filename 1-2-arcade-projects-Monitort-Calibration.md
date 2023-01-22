@@ -7,7 +7,11 @@ nav_order: 1
 
 # Arcade Monitor Calibration
 
-Following a thread from the Arcade Projects forum, here I document the the calibration of an arcade monitor using a colorimeter.
+Following a thread from the Arcade Projects forum, here I document the the calibration of an arcade monitor using a colorimeter. 
+
+After the first try I was still way off from the perfect grey scale, but hey, I bet I can do this drunk or tired now and the picture looks good.
+
+![Measurement Results First Try](https://user-images.githubusercontent.com/17674324/213933211-2ddfb2a3-67ff-4e9b-b4c6-d2692ae58721.PNG)
 
 ## Preconditions and Definitions
 
@@ -54,7 +58,5 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 7. ### Verify Calibration
 - Measures &rarr; Grey Scale &rarr; Follow instructions and take a measurement IRE values 10-100
-
-
  
 
