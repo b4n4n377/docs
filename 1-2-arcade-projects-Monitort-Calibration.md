@@ -20,7 +20,9 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 ## Steps
 
 1. ### Heat up monitor tube
-Let the monitor tube heat up with a constant white picture. The guide says 1 hour, the service manual mentions 10 minutes. ***Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens***. I stick with the ***010 minutes***.
+Let the monitor tube heat up with a constant white picture. The guide says 1 hour, the service manual mentions 10 minutes. Chose yourself.
+- Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
+- 10 minutes 
 
 
 
