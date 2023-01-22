@@ -24,12 +24,12 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Time**: 10-60 minutes 
 
 2. ### Prepare Screen Setting
-- **Gain Red (RV1) and Blue (RV6):** Middle Position
-- **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** Low Position
-- **Contrast (RV405):** Middle Position
-- **Brightness (RV406)** Low Position
+- **Gain Red (RV1) and Blue (RV6):** middle position
+- **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** low position
+- **Contrast (RV405):** middle position
+- **Brightness (RV406)** low position
 - **Set Black Pictures:** R:0x00, G:0x00, B:0x00
-- **Screen Pot:** Low Position &rarr; Slightly Visible
+- **Screen Pot:** low position &rarr; picture slightly visible
 
 
 2. ### Prepare HFCR
