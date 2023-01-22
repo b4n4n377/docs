@@ -50,6 +50,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Set IRE Levels:** 80 IRE for Gain, 30 IRE for Cutoff
 - **Dial Pots until:** R 100%, G 100%, B 100%, Delta E 0,0 
 
+6. ### Repeat Steps 4 and 5 once  
 
 
 
