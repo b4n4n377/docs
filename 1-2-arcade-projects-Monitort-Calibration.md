@@ -38,6 +38,8 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Brightness (RV406)** middle
 - **100 IRE Pattern:** Test Patterns → Color & Black Levels → 100 IRE
 - **Value Y ftl:** Dial Contrast until 35 Y ftl.
+- **Note Value Y:** 120 (in my case)
+- **Adjust IRE Level in 240P Suite:** IRE 10 
 
 
 
