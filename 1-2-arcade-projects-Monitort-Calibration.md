@@ -29,7 +29,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 
 2. ### Prepare HFCR
-- File &rarr; New &rarr; Generator: DVD manual &rarr; Sensor: X-Rite DisplayPro &rarr; No meter correction file &rarr; Finish
+- File &rarr; New &rarr; Generator: DVD manual &rarr; Sensor: X-Rite DisplayPro &rarr; No correction file &rarr; Finish
 
 
 
