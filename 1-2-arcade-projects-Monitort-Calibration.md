@@ -19,9 +19,9 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 ## Steps
 
-1. ### Heat up monitor tube with a white picture
-- Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
-- 10-60 minutes 
+1. ### Heat up monitor tube 
+- **White screen in menu:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
+- **Time**: 10-60 minutes 
 
 2. ### Prepare the monitor chassis
 - test
