@@ -13,7 +13,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 
 After the first try I was still way off from the perfect grey scale, but hey, I bet I can do this drunk or tired now and the picture looks good.
 
-![](https://user-images.githubusercontent.com/17674324/213933211-2ddfb2a3-67ff-4e9b-b4c6-d2692ae58721.PNG)
+<img src="https://user-images.githubusercontent.com/17674324/213933211-2ddfb2a3-67ff-4e9b-b4c6-d2692ae58721.PNG" width="100" height="100">
 
 ## Preconditions and Definitions
 
