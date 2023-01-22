@@ -26,8 +26,8 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 2. ### Prepare the monitor chassis - Screen
 - **Gain Red (RV1) and Blue (RV6):** Middle Position
 - **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** Low Position
-- **Contrast (RV405)**:
-- **Brightness (RV406)**:
+- **Contrast (RV405)**: Middle Position
+- **Brightness (RV406)**: Low Position
 
 
 2. ### Prepare HFCR
