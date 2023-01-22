@@ -37,6 +37,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Contrast (RV405):** middle
 - **Brightness (RV406)** middle
 - **100 IRE Pattern:** Test Patterns → Color & Black Levels → 100 IRE
+- **Value Y ftl:** Dial Contrast until 35 Y ftl.
 
 
 
