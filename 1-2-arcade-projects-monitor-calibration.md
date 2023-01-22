@@ -7,7 +7,7 @@ nav_order: 1
 
 # Arcade Monitor Calibration
 
-Following a thread from the Arcade Projects forum, here I document the the calibration of an arcade monitor using a colorimeter. 
+Following a thread from the Arcade Projects forum, here I document the calibration of an arcade monitor using a colorimeter. 
 
 <img src="https://user-images.githubusercontent.com/17674324/213933538-7f98b563-4287-4502-9013-3bf2e76fd8a1.jpg" width="100" height="100">
 
