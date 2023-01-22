@@ -23,13 +23,20 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **White screen in menu:** Test Patterns &rarr; Color & Black Levels &rarr; White & RGB screens.
 - **Time**: 10-60 minutes 
 
-2. ### Prepare Screen Setting
-- **Gain Red (RV1) and Blue (RV6):** middle position
-- **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** low position
-- **Contrast (RV405):** middle position
-- **Brightness (RV406)** low position
+2. ### Set Flyback Screen Dial
+- **Gain Red (RV1) and Blue (RV6):** middle
+- **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** low
+- **Contrast (RV405):** middle
+- **Brightness (RV406)** low
 - **Set Black Pictures:** R:0x00, G:0x00, B:0x00
-- **Screen Pot:** low position &rarr; picture slightly visible
+- **Screen Pot:** low &rarr; picture slightly visible
+
+3. ### Set Contrast and Brightness 
+- **Gain Red (RV1) and Blue (RV6):** middle
+- **Cutoff Red (RV3), Green (RV4) and Blue (RV5):** middle
+- **Contrast (RV405):** middle
+- **Brightness (RV406)** middle
+
 
 
 2. ### Prepare HFCR
