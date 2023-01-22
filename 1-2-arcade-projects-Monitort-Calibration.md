@@ -40,7 +40,7 @@ Following a thread from the Arcade Projects forum, here I document the the calib
 - **Value Y ftl:** dial Contrast → 35 Y ftl.
 - **Note Value Y:** 120 (in my case)
 - **Adjust IRE Level in 240P Suite:** set 10 IRE (with shoulder pads L and R)
-- **Value Y ftl:** dial Brightness → 0,0065 x Y value before → Y 0,78
+- **Value Y ftl:** dial Brightness → 0,0065 x Y value before → Y 0,78 (adjust Screen a hair if you cannot get low enough)
 
 
 2. ### Prepare HFCR
