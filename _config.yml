@@ -2,6 +2,6 @@
 title: "Bananes World"
 markdown: kramdown
 remote_theme: just-the-docs/just-the-docs
-color_scheme: light
+color_scheme: dark
 search_enabled: false
 favicon_ico: "/favicon.png"
