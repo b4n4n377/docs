@@ -13,7 +13,7 @@ Following a thread from the Arcade Projects forum, here I document the calibrati
 
 After the first try I was still way off from the perfect grey scale, but hey, I bet I can do this drunk or tired now and the picture looks good.
 
-![](https://user-images.githubusercontent.com/17674324/213933211-2ddfb2a3-67ff-4e9b-b4c6-d2692ae58721.PNG){:class="img-responsive"}{:height="50%" width="50%"}.
+![](https://user-images.githubusercontent.com/17674324/213933211-2ddfb2a3-67ff-4e9b-b4c6-d2692ae58721.PNG){:class="img-responsive"}{:height="75%" width="75%"}.
 
 ## Preconditions and Definitions
 
