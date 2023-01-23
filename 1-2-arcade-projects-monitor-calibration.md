@@ -10,7 +10,7 @@ nav_order: 1
 Following a thread from the Arcade Projects forum, here I document the calibration of an arcade monitor using a colorimeter. 
 
 <div align="center">
-  <img alt="Display of emojis" src="https://user-images.githubusercontent.com/17674324/213933538-7f98b563-4287-4502-9013-3bf2e76fd8a1.jpg" width="400" height="100"><br>
+  <img alt="Display of emojis" src="https://user-images.githubusercontent.com/17674324/213933538-7f98b563-4287-4502-9013-3bf2e76fd8a1.jpg"><br>
   <sup>Sample display of image in HTML format <sup>
 </div>
 
