@@ -23,4 +23,4 @@ The power on self test runs through - great, nothing broken by the cleaning.
 
 ![](https://user-images.githubusercontent.com/17674324/214688666-3cd2a17f-7262-4aab-a186-d1a37cc0dfe9.jpg){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
-Today is a day to celebrate. The friend reverses the gift and HerrG gets his tools back {: .label .label-yellow }
+> **Today is a day to celebrate. The friend reverses the gift and HerrG gets his tools back**
