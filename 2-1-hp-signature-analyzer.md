@@ -9,6 +9,8 @@ nav_order: 1
 
 Today I received an HP 5006 A Signature Analyzer that had been in the post from the UK for several months.  Hey N., as you can see, it has finally arrived. Many thanks and 'Up the Evri' :-D. 
 
+The very first thing I did was to clean the unit thoroughly with Irox plastic cleaner and isopropanol before switching it on for the first time. This was not really necessary, but it is a standard procedure for me when I receive new hardware. 
+
 The service manual one can easily find online, e.g. [here](https://arcarc.xmission.com/Test%20Equipment/HP/HP%205006A.pdf)
 
 ![](https://user-images.githubusercontent.com/17674324/214686610-bbd36d35-1af1-4d0d-94c7-19ce7b22954a.jpg){:class="img-responsive"}{:height="33%" width="33%"}{:style="display:block; margin-left:auto; margin-right:auto"}
