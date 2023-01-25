@@ -1,5 +1,5 @@
 ---
-title: Computer-Stuff
+title: Hardware-Stuff
 has_children: true
 nav_order: 3
 ---
