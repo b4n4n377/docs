@@ -19,4 +19,6 @@ The service manual one can easily find online, e.g. [here](https://arcarc.xmissi
 
 ![](https://user-images.githubusercontent.com/17674324/214686621-f826c02e-42b1-4988-addb-926c321bd2da.jpg){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
-![](https://user-images.githubusercontent.com/17674324/214686623-1ec5e4c4-8a66-40f2-b6ed-a0bda214a418.jpg){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+The power on self test runs through - great, nothing broken by the cleaning.
+
+![](https://user-images.githubusercontent.com/17674324/214688666-3cd2a17f-7262-4aab-a186-d1a37cc0dfe9.jpg){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
