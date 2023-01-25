@@ -7,7 +7,7 @@ nav_order: 1
 
 # HP 5006 A Signature Analyzer
 
-Today I received an HP 5006 A Signature Analyzer that had been in the post from the UK for several months.  Hey N., as you can see, it has finally arrived. Many thanks and 'Up the Evri' :-D. 
+Today I received an HP 5006 A Signature Analyzer that had been in the post from the UK for several months.  Hey N., as you can see, it has finally arrived. Many thanks and 'Up the Evri'.
 
 The very first thing I did was to clean the unit thoroughly with Irox plastic cleaner and isopropanol before switching it on for the first time. This was not really necessary, but it is a standard procedure for me when I receive new hardware. 
 
