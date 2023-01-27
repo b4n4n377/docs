@@ -52,6 +52,8 @@ cat ~/.ssh/id_ed25519.pub # <copy>
     # SSH_PRIV_KEY -> the belonging ssh private key
     # SSH_HOST     -> the ip address of the server
     # SSH_USER     -> the ssh user
+
+
   
 
 
