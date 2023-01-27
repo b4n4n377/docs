@@ -34,3 +34,24 @@ sudo systemctl status fail2ban
 # watch the log
 sudo tail -f /var/log/fail2ban.log
 ```
+
+## Trigger ssh commands on Debian 11 via GitHub Actions
+
+```bash
+
+# generate ed25519 ssh key without password, allow the user itself to access the server, copy the key to the  clipboard
+ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "user@server"
+cat ~/.ssh/id_ed25519.pub > ~/.ssh/authorized_keys
+cat ~/.ssh/id_ed25519.pub # <copy>
+
+# add the key to GitHub Actions repository
+  # Settings -> Deploy Keys -> Add Deploy Key -> <paste>
+  
+  
+
+
+
+
+```
+
+
