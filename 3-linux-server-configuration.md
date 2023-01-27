@@ -1,6 +1,6 @@
 ---
 title: Linux Server Configuration
-parent: Hardware-Stuff
+parent: Software-Stuff
 has_children: false
 nav_order: 1
 ---
