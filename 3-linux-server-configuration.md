@@ -47,7 +47,9 @@ cat ~/.ssh/id_ed25519.pub # <copy>
 # add the key to GitHub Actions repository
   # Settings -> Deploy Keys -> Add Deploy Key -> <paste>
   
+# Settings -> Secrets and variables -> Actions -> Repository secrets -> <paste>
   
+
 
 
 
