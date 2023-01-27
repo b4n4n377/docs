@@ -110,13 +110,17 @@ sudo wg show VPN
 ```
 
 ## Wireguard Server on pfSense
-
+Add a new tunnel
 ![](https://user-images.githubusercontent.com/17674324/215202133-d04f043e-e464-41e7-a3de-0ec4a519c2d6.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
+Generate key pair and set listen port
 ![](https://user-images.githubusercontent.com/17674324/215202143-eb4e0b9b-36fc-417a-9b8a-e36188320886.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
+Set client config, generate Preshared Key
 ![](https://user-images.githubusercontent.com/17674324/215202147-90c87dff-0b45-4349-b973-4e9e961fda90.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
+Create a new interface and a gateway (also ip address of the server)
 ![](https://user-images.githubusercontent.com/17674324/215202152-34e9b770-47fd-4f9b-bf23-5affba4c6165.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
 
+Set a static route to the client network via the just created gateway
 ![](https://user-images.githubusercontent.com/17674324/215202157-5d4d6830-bb61-4e87-aeef-1025a72886b0.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
