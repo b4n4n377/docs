@@ -88,42 +88,20 @@ cd ~/.wireguard/
 wg pubkey < wg-private.key > wg-public.key
 
 # create client config
-sudo nano /etc/wireguard/wg0.conf
+sudo nano /etc/wireguard/VPN.conf
 
     [Interface]
-    Address = 10.0.2.2/32
-    # client private key
-    PrivateKey = oBkgA+KZU6mWY5p7d0PEWxnYkihBw9TmHZXEYnQkz3g=
+    Address = <client_ip>
+    PrivateKey = <client_private_key>
 
     [Peer]
-    # server public key
-    PublicKey = 2efuG9OYmMPQpbkJ8CVxGlvQflY6p1u+o4wjcgGII0A=
+    PublicKey = <server_public_key>
+    AllowedIPs = <server_internal_ip>
+    Endpoint = <server_public_ip:port>
 
-    # server internal ip
-    AllowedIPs = 10.0.2.1/32
-
-    # server public ip and port
-    Endpoint = 35.36.37.38:51820
-    
-# create client interface
-sudo nano /etc/network/interfaces.d/wg0
-
-    # indicate that wg0 should be created when the system boots, and on ifup -a
-    auto wg0
-
-    # describe wg0 as an IPv4 interface with static address
-    iface wg0 inet static
-
-            # the IP address of this client on the WireGuard network
-            address 10.0.2.2/32
-
-            # before ifup, create the device with this ip link command
-            pre-up ip link add $IFACE type wireguard
-
-            # before ifup, set the WireGuard config from earlier
-            pre-up wg setconf $IFACE /etc/wireguard/$IFACE.conf
-
-            # after ifdown, destroy the wg0 interface
-            post-down ip link del $IFACE
+# enable and restart service 
+systemctl enable wg-quick@VPN.service
+systemctl restart wg-quick@VPN.service    
+systemctl status wg-quick@VPN.service
 ```
 
