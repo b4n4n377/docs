@@ -76,5 +76,53 @@ jobs:
           whoami
           ls -al ~ 
 ```
+## Wireguard Client on Debian 11
+```bash
+# install wireguard
+sudo apt install wireguard
 
+# generate keypair
+mkdir ~/.wireguard/
+cd ~/.wireguard/
+(umask 077 && wg genkey > wg-private.key)
+wg pubkey < wg-private.key > wg-public.key
+
+# create client config
+sudo nano /etc/wireguard/wg0.conf
+
+    [Interface]
+    # client private key
+    PrivateKey = oBkgA+KZU6mWY5p7d0PEWxnYkihBw9TmHZXEYnQkz3g=
+
+    [Peer]
+    # server public key
+    PublicKey = 2efuG9OYmMPQpbkJ8CVxGlvQflY6p1u+o4wjcgGII0A=
+
+    # server internal ip
+    AllowedIPs = 10.0.2.1/32
+
+    # server public ip and port
+    Endpoint = 35.36.37.38:51820
+    
+# create client interface
+sudo nano /etc/network/interfaces.d/wg0
+
+    # indicate that wg0 should be created when the system boots, and on ifup -a
+    auto wg0
+
+    # describe wg0 as an IPv4 interface with static address
+    iface wg0 inet static
+
+            # the IP address of this client on the WireGuard network
+            address 10.77.78.253/32
+
+            # before ifup, create the device with this ip link command
+            pre-up ip link add $IFACE type wireguard
+
+            # before ifup, set the WireGuard config from earlier
+            pre-up wg setconf $IFACE /etc/wireguard/$IFACE.conf
+
+            # after ifdown, destroy the wg0 interface
+            post-down ip link del $IFACE
+```
 
