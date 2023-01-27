@@ -114,7 +114,7 @@ sudo nano /etc/network/interfaces.d/wg0
     iface wg0 inet static
 
             # the IP address of this client on the WireGuard network
-            address 10.77.78.253/32
+            address 10.0.2.2/32
 
             # before ifup, create the device with this ip link command
             pre-up ip link add $IFACE type wireguard
