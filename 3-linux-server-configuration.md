@@ -96,7 +96,7 @@ sudo nano /etc/wireguard/VPN.conf
 
     [Peer]
     PublicKey = <server_public_key>
-    AllowedIPs = <server_internal_ip>
+    AllowedIPs = <server_internal_ip>,<server_internal_network>
     Endpoint = <server_public_ip:port>
 
 # enable and restart service 
