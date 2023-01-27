@@ -38,7 +38,6 @@ sudo tail -f /var/log/fail2ban.log
 ## Trigger ssh commands on Debian 11 via GitHub Actions
 
 ```bash
-
 # generate ed25519 ssh key without password, allow the user itself to access the server, copy the key to the  clipboard
 ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "user@server"
 cat ~/.ssh/id_ed25519.pub > ~/.ssh/authorized_keys
@@ -52,14 +51,30 @@ cat ~/.ssh/id_ed25519.pub # <copy>
     # SSH_PRIV_KEY -> the belonging ssh private key
     # SSH_HOST     -> the ip address of the server
     # SSH_USER     -> the ssh user
+    # SSH_PORT     -> the port sshd listens on
+```
 
+Example flow in repository/.github/workflows/:
 
-  
+```yaml
+name: remote ssh command
+on: [push]
+jobs:
 
-
-
-
-
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@v0.1.7
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USER }}
+        key: ${{ secrets.SSH_PRIV_KEY }}
+        port: ${{ secrets.SSH_PORT }}
+        script: |
+          whoami
+          ls -al ~ 
 ```
 
 
