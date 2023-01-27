@@ -44,10 +44,14 @@ ssh-keygen -t ed25519 -f ~/.ssh/id_ed25519 -C "user@server"
 cat ~/.ssh/id_ed25519.pub > ~/.ssh/authorized_keys
 cat ~/.ssh/id_ed25519.pub # <copy>
 
-# add the key to GitHub Actions repository
+# add the public key to GitHub Actions repository deploy keys
   # Settings -> Deploy Keys -> Add Deploy Key -> <paste>
   
-# Settings -> Secrets and variables -> Actions -> Repository secrets -> <paste>
+# add GitHub Actions Repository secrets
+  # Settings -> Secrets and variables -> Actions -> New Repository Secret ->
+    # SSH_PRIV_KEY -> the belonging ssh private key
+    # SSH_HOST     -> the ip address of the server
+    # SSH_USER     -> the ssh user
   
 
 
