@@ -91,6 +91,7 @@ wg pubkey < wg-private.key > wg-public.key
 sudo nano /etc/wireguard/wg0.conf
 
     [Interface]
+    Address = 10.0.2.2/32
     # client private key
     PrivateKey = oBkgA+KZU6mWY5p7d0PEWxnYkihBw9TmHZXEYnQkz3g=
 
