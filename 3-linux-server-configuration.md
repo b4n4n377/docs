@@ -103,5 +103,8 @@ sudo nano /etc/wireguard/VPN.conf
 systemctl enable wg-quick@VPN.service
 systemctl restart wg-quick@VPN.service    
 systemctl status wg-quick@VPN.service
+
+# show connection status
+sudo wg show VPN
 ```
 
