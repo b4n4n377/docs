@@ -124,3 +124,7 @@ Create a new interface and a gateway (also ip address of the server)
 
 Set a static route to the client network via the just created gateway
 ![](https://user-images.githubusercontent.com/17674324/215202157-5d4d6830-bb61-4e87-aeef-1025a72886b0.png){:class="img-responsive"}{:height="75%" width="75%"}{:style="display:block; margin-left:auto; margin-right:auto"}
+
+For the UDP listening port a firewall rule needs to be created on the WAN interface.
+Firewall rules for the tunnel only needs to be created on the newly created interface, the interface named 'WireGuard' can be left untouched.
+
