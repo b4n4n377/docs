@@ -31,4 +31,5 @@ nav_order: 1
 
 # Beispiel 15khZ CRT mit Auflösung 320x240 / 240P bei 60Hz
 - 15000 Zeilenabtastungen pro Sekunde / 60 Bilder pro Sekunde = 250 Zeilenabtastungen pro Bild
-- 
+- während der vertikalen Austastlücke wird der Elektronenstrahl reduziert, er tastet aber weiter ab
+- 10 Zeilen werden für die vertikale Austastlücke benötigt = 240 tatsächlich angezeigte Zahlen 
