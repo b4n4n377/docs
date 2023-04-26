@@ -14,4 +14,6 @@ nav_order: 1
 - interlaced = 60 Halbbilder, d.h. 30 Vollbilder pro Sekunde werden dargestellt
 
 # Zusammenhang Zeilenwiederholfrequenz (15kHz/31kHz) und Auflösung
+- die horizontale Ablenkfrequenz bestimmt, wie schnell der Elektronenstrahl von links nach rechts über den Bildschirm geführt wird
+- eine höhere horizontale Ablenkfrequenz ermöglicht es, in der gleichen Zeit mehr Zeilen abzutasten, was zu einer höheren vertikalen Auflösung führt.
 
