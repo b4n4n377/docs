@@ -135,14 +135,25 @@ The following lists show the files for version 2.50 that are tested to run with 
 ```
 
 ### Enable 15Khz
-Either run the script...
+Either run the script ```sh /home/nucore/nucore/scripts/crt-15khz-enable.sh``` or uncomment manually in ```/home/nucore/nucore/scripts/15khz-x11.sh``` using a editor like name or vim.
+
 ```bash
-scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
-scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
-```
-...or uncomment manually.
-```bash
-scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
-scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
+#!/bin/bash
+
+#
+# Modeline for the original Pinball 2000 CRT monitors
+#
+# You might have to change the port "VGA-0" to match your graphic card port, which is connected to the P2k CRT monitor.
+#
+# run "xrandr --display
+# example:
+# xrandr --listmonitors
+# Monitors: 1
+# 0: +*VGA-0 1568/415x821/217+0+0  VGA-0  
+#
+
+xrandr --newmode "640x480-15khz" 13.218975 640 672 736 840 480 484 490 525 -HSync -VSync interlace
+xrandr --addmode DVI-0 "640x480-15khz"
+xrandr --output DVI-0 --mode "640x480-15khz"
 ```
 
