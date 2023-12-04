@@ -96,7 +96,7 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 ```
 
 ### Copy over roms and update folder
-
+```bash
 | roms                                           | SHA256                                                           |
 | ---------------------------------------------- | ---------------------------------------------------------------- |
 | roms/bios.bin                                  | 9d2d079e7fea5387a8257310ed1809a0d37400bf001094ac58ff84238c378a45 |
@@ -126,4 +126,4 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 | update/rfm_15/pin2000_50070_0250_sf.rom        | 497ffa6d68c94ebeaeb2fe7cc56c6bcd7d3057293cc496cd12c7dc4b0c00cec9 |
 | update/rfm_15/pin2000_50070_0250_symbols.rom   | 24b7f8ea86b43aee021aa302804664e9c8ddc0fb28c65ec5d4f3a74905b2ced5 |
 | update/rfm_15/rfm_15_update.bin                | 476a554b98f4880d72778dadcbd7d7af855985bedfba1c9a304df3877578f70c |
-
+```
