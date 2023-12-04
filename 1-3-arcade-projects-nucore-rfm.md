@@ -1,5 +1,5 @@
 ---
-title: Revenge From Mars Pinball Nucore PC
+title: RfM Pinball - Nucore PC
 parent: Arcade-Projects
 has_children: false
 nav_order: 1
