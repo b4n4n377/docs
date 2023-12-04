@@ -6,6 +6,13 @@ nav_order: 1
 ---
 
 # Revenge From Mars Pinball Nucore PC
+This is a documentation checked for up-to-dateness (November 2023) for installing the Nucore emulator for the pinball machine Revenge from Mars. 
+It is based on the following, somewhat outdated documentation:
+https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-2000/nucore-installation-und-faqs.php
+
+I use Xubuntu instead of Lubuntu because I like the XFCE desktop more. 
+
+---
 ## 1) Preparation on other PC
 ### Download and Write the 32-bit ISO of Xubuntu to USB
 - ISO Download Link: [Xubuntu 18.04.5 Desktop i386](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso)
