@@ -48,37 +48,37 @@ sudo apt install update && sudo apt install openssh-server -y
 sudo apt-get install lightdm-autologin-greeter -y
 ```
 
-### Configure Autologin
+### Configure autologin
 ```bash
 sudo mkdir -p /etc/lightdm/lightdm.conf.d
 echo -e "[Seat:*]\n# Configure auto-login user\nautologin-user=nucore\n\n# Specify the session for auto-login\nautologin-session=xubuntu" | sudo tee /etc/lightdm/lightdm.conf.d/lightdm-autologin-greeter.conf
 echo -e "[Seat:*]\ngreeter-session=lightdm-autologin-greeter" | sudo tee /etc/lightdm/lightdm.conf.d/99-benutzerdefiniert.conf
 ```
 
-### Disable Monitor Power Management
+### Disable monitor power management
 ```bash
 xfconf-query -c xfce4-power-manager -p /xfce4-power-manager/dpms-enabled -s false
 ```
 
-### Clean Up Home Directory
+### Clean home directory
 ```bash
 rm -rf ~/Bilder ~/Desktop ~/Dokumente ~/Musik ~/Öffentlich ~/Videos ~/Vorlagen
 ```
 
-### Install Updates
+### Install updates
 ```bash
 sudo apt update && sudo apt upgrade -y 
 sudo apt install fwupd -y
 sudo apt autoremove -y
 ```
 
-### Install Nucore package
+### Install Nucore main package
 ```bash
 sudo dpkg -i /home/nucore/Downloads/nucore-2.25.3r-package-v003-wahcade.deb
 sudo apt-get -f install -y
 ```
 
-### Extract Scripts from Nucore Config package / Do not install it
+### Extract scripts from Nucore config package (Do not install)
 ```bash
 sudo apt install binutils -y
 cd /home/nucore/Downloads
@@ -88,7 +88,7 @@ rm -rf control.tar.* data.tar.* debian-binary
 cd /home/nucore
 ```
 
-### Configure Autostart for Terminal and Nucore
+### Configure autostart for terminal and Nucore
 ```bash
 mkdir -p /home/nucore/.config/autostart
 echo -e "[Desktop Entry]\nType=Application\nName=TerminalAutostart\nExec=xfce4-terminal --working-directory=/home/nucore/nucore/scripts -H -x bash -c 'pwd; ls -l; exec bash'\nX-GNOME-Autostart-enabled=true" | tee /home/nucore/.config/autostart/start-terminal.desktop
