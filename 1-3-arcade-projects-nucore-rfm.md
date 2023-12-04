@@ -15,7 +15,7 @@ I use Xubuntu instead of Lubuntu because I like the XFCE desktop more.
 ---
 
 ## A) Preparation on other computer
-### Download and Write the 32-bit ISO of Xubuntu to USB
+### Download and Write the 32-bit ISO of Xubuntu to USB (e.g /dev/sda)
 - ISO Download Link: [Xubuntu 18.04.5 Desktop i386](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso)
 - SHA256: `c87b660d362c29706833e41f9409a98e54b8e534df62581b48e7cde0df52c86d`
 
@@ -31,12 +31,12 @@ I use Xubuntu instead of Lubuntu because I like the XFCE desktop more.
 - **password:** nucore
 - **hostname:** nucorepc
 
-### Activate SSH
+### Activate ssh
 ```bash
 sudo apt install update && sudo apt install openssh-server -y
 ```
 
-### Copy Nucore Packages into Home Directory
+### Copy Nucore packages into home directory
 - /home/nucore/Downloads/nucore-2.25.3r-package-v003-wahcade.deb
 - /home/nucore/Downloads/nucore-lubuntu-system-configuration-package-v003-wahcade.deb
 
