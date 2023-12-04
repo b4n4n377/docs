@@ -96,6 +96,13 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 ```
 
 ### Copy over roms and update folder
+
+```bash
+scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
+scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
+```
+The following lists show the files for version 2.50 that are tested to run with the installation documented here.
+
 ```bash
 | roms                                           | SHA256                                                           |
 | ---------------------------------------------- | ---------------------------------------------------------------- |
