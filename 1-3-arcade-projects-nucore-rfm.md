@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # Revenge from Mars Pinball Nucore Emulator
-This is a documentation checked for up-to-dateness (November 2023) for installing the Nucore emulator for the pinball machine Revenge from Mars. 
+This is a documentation checked for up-to-dateness (november 2023) showing the install of the Nucore emulator for the pinball machine Revenge from Mars. 
 
 It is based on the following, somewhat outdated documentation:
 - https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-2000/nucore-installation-und-faqs.php
@@ -48,7 +48,7 @@ sudo apt install update && sudo apt install openssh-server -y
 ---
 
 ## C) SSH remote administration on the Nucore computer
-### Install Autologin
+### Install autologin
 ```bash
 sudo apt-get install lightdm-autologin-greeter -y
 ```
