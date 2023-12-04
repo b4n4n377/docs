@@ -8,7 +8,7 @@ nav_order: 1
 # Revenge From Mars Pinball Nucore PC
 
 ## 1) Preparation on other PC
-### Downloading and Writing the 32-bit ISO of Xubuntu to USB
+### Download and Write the 32-bit ISO of Xubuntu to USB
 - ISO Download Link: [Xubuntu 18.04.5 Desktop i386](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso)
 - SHA256: `c87b660d362c29706833e41f9409a98e54b8e534df62581b48e7cde0df52c86d`
 
@@ -16,21 +16,21 @@ nav_order: 1
   sudo dd if=xubuntu-18.04.5-desktop-i386.iso of=/dev/sda bs=4M && sudo sync
 ```
 ## 2) On-Site on the Nucore PC
-### Booting from USB Stick and Installing Xubuntu
+### Boot from USB Stick and Install Xubuntu
 - **user:** nucore
 - **password:** nucore
 - **hostname:** nucorepc
 
-### Activating SSH
-sudo apt install update && sudo apt install openssh-server
+### Activate SSH
+sudo apt install update && sudo apt install openssh-server -y
 
-# Copying Nucore Packages into the Home Directory
+# Copy Nucore Packages into Home Directory
 - /home/nucore/Downloads/nucore-2.25.3r-package-v003-wahcade.deb
 - /home/nucore/Downloads/nucore-lubuntu-system-configuration-package-v003-wahcade.deb
 
 ## 3) Remote via SSH on the Nucore PC
 
-### Autologin config installieren
+### Install Autologin
 sudo apt-get install lightdm-autologin-greeter -y
 
 ### Autologin config für user 'nucore' und session 'xubuntu' konfigurieren
