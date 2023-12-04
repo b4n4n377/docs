@@ -96,7 +96,6 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 ```
 
 ### Copy over roms and update folder
-
 ```bash
 scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
 scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
@@ -134,3 +133,16 @@ The following lists show the files for version 2.50 that are tested to run with 
 | update/rfm_15/pin2000_50070_0250_symbols.rom   | 24b7f8ea86b43aee021aa302804664e9c8ddc0fb28c65ec5d4f3a74905b2ced5 |
 | update/rfm_15/rfm_15_update.bin                | 476a554b98f4880d72778dadcbd7d7af855985bedfba1c9a304df3877578f70c |
 ```
+
+### Enable 15Khz
+Either run the script...
+```bash
+scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
+scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
+```
+...or uncomment manually.
+```bash
+scp -r <username>@<host>:/path/to/roms /home/nucore/nucore/
+scp -r <username>@<host>:/path/to/update /home/nucore/nucore/
+```
+
