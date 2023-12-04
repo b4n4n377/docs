@@ -135,7 +135,9 @@ The following lists show the files for version 2.50 that are tested to run with 
 ```
 
 ### Enable 15Khz
-Either run the script ``` /home/nucore/nucore/scripts/crt-15khz-enable.sh ``` or uncomment manually in ``` /home/nucore/nucore/scripts/15khz-x11.sh ```.
+Either run the enable script ``` /home/nucore/nucore/scripts/crt-15khz-enable.sh ``` or uncomment directly in ``` /home/nucore/nucore/scripts/15khz-x11.sh ```.
+Also make sure the primary video port matches your configuration, as described within the script, see below.
+
 
 ```bash
 #!/bin/bash
