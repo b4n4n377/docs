@@ -97,11 +97,8 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 
 ### Copy over roms and update folder
 
-```bash
-### Copy over roms and update folder
-
-| File Path                         | SHA256 Hash                                                   |
-| --------------------------------- | ------------------------------------------------------------- |
+| Directory roms                    | SHA256                                                           |
+| --------------------------------- | ---------------------------------------------------------------- |
 | roms/bios.bin                     | 9d2d079e7fea5387a8257310ed1809a0d37400bf001094ac58ff84238c378a45 |
 | roms/rfm_nucore.bin               | 6c715ae58596979144d253a5219efe7138d055baecb9302551cde3ad8569d5b4 |
 | roms/rfm_u100.rom                 | 88deb375f4cb04a073b3d375b9c041a7ac881d4ba1e21a9228b98894e41fa6c8 |
@@ -119,3 +116,14 @@ echo -e "[Desktop Entry]\nType=Application\nName=NucoreAutostart\nExec=/home/nuc
 | roms/savedata/rfm_15.ems          | 6e8ae1cab5e3967ce9946f37cb88d5b2d41f4f743582f606ee9a8531961e1f35 |
 | roms/savedata/rfm_15.flash        | 3cd50cd42d123835b6ddf389eab6cb80fa1aca7ee885e9409da40a5e03a7be57 |
 | roms/savedata/rfm_15.see          | 8928c481b3db6eeecfc6bd42ca4225b39763702464dc3a48836088cd57c1d663 |
+
+| Directory update                               | SHA256 Hash                                                      |
+| ---------------------------------------------- | ---------------------------------------------------------------- |
+| update/rfm_15/pin2000_50070_0250_bootdata.rom  | 542a69f66abf3bace649abb9f52a02c8564873dc548908f5a14d9f3f7de93692 |
+| update/rfm_15/pin2000_50070_0250_game.rom      | 09be1622f36f00b11e241b654b22e2cfcdc97c972982936d91469f2b12971c7d |
+| update/rfm_15/pin2000_50070_0250_im_flsh0.rom  | 76a7312b1a6060c1b36b2a7798841ae29c9415fbfa94b2215d3cd00d90cd79fc |
+| update/rfm_15/pin2000_50070_0250_pubboot.rom   | fafef4f06fa8e8cfeb6d5f67ca713351f7b866ae341ad8f1e71faa8beadb9aab |
+| update/rfm_15/pin2000_50070_0250_sf.rom        | 497ffa6d68c94ebeaeb2fe7cc56c6bcd7d3057293cc496cd12c7dc4b0c00cec9 |
+| update/rfm_15/pin2000_50070_0250_symbols.rom   | 24b7f8ea86b43aee021aa302804664e9c8ddc0fb28c65ec5d4f3a74905b2ced5 |
+| update/rfm_15/rfm_15_update.bin                | 476a554b98f4880d72778dadcbd7d7af855985bedfba1c9a304df3877578f70c |
+
