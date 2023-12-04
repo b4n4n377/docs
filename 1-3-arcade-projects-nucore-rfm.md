@@ -15,7 +15,7 @@ It can maybe still be downloaded here:
 - https://vpuniverse.com/files/file/7035-pinball-2000-nucore-pinbox
 - https://www.mypinballs.com/
 
-I use Xubuntu instead of Lubuntu because I prefer the XFCE desktop over LXDE. Also in this code I do not use the Nucore configuration package, but set up the autostart etc. manually. This makes it easier to intervene if there is a problem, e.g the desktop icons are visible, the background shows whether you are on the desktop or in nucore. Also the autologin script within the configuration package has a problem. The configuration shown in this guide has been tested for errors. 
+I use Xubuntu instead of Lubuntu because I prefer the XFCE desktop over LXDE. This guide does not use the Nucore configuration package, but set up the autostart etc. manually. This makes it easier to intervene if there is a problem, e.g the desktop icons are visible, the background shows whether you are on the desktop or in nucore. Also the LightDM autologin script within the configuration package seems to have a problem. The configuration shown in this guide has been tested for errors. 
 
 ---
 
