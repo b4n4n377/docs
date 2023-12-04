@@ -135,7 +135,7 @@ The following lists show the files for version 2.50 that are tested to run with 
 ```
 
 ### Enable 15Khz
-Either run the script ``` /home/nucore/nucore/scripts/crt-15khz-enable.sh ``` or uncomment manually in ``` /home/nucore/nucore/scripts/15khz-x11.sh ``` using a editor like name or vim.
+Either run the script ``` /home/nucore/nucore/scripts/crt-15khz-enable.sh ``` or uncomment manually in ``` /home/nucore/nucore/scripts/15khz-x11.sh ```.
 
 ```bash
 #!/bin/bash
