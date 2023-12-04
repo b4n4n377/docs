@@ -8,7 +8,12 @@ nav_order: 1
 # Revenge from Mars Pinball Nucore Emulator
 This is a documentation checked for up-to-dateness (November 2023) for installing the Nucore emulator for the pinball machine Revenge from Mars. 
 It is based on the following, somewhat outdated documentation:
-https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-2000/nucore-installation-und-faqs.php
+
+[https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-2000/nucore-installation-und-faqs.php](https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-2000/nucore-installation-und-faqs.php)
+
+It can maybe still be downloaded here:
+
+[https://vpuniverse.com/files/file/7035-pinball-2000-nucore-pinbox/?_fromLogin=1)](https://vpuniverse.com/files/file/7035-pinball-2000-nucore-pinbox/?_fromLogin=1)
 
 I use Xubuntu instead of Lubuntu because I like the XFCE desktop more. 
 
