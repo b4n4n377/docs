@@ -13,7 +13,8 @@ https://www.flippermarkt.de/community/howto/cms/pages/bauanleitungen/pinball-200
 I use Xubuntu instead of Lubuntu because I like the XFCE desktop more. 
 
 ---
-## 1) Preparation on other PC
+
+## A) Preparation on other PC
 ### Download and Write the 32-bit ISO of Xubuntu to USB
 - ISO Download Link: [Xubuntu 18.04.5 Desktop i386](https://cdimage.ubuntu.com/xubuntu/releases/18.04/release/xubuntu-18.04.5-desktop-i386.iso)
 - SHA256: `c87b660d362c29706833e41f9409a98e54b8e534df62581b48e7cde0df52c86d`
@@ -21,8 +22,10 @@ I use Xubuntu instead of Lubuntu because I like the XFCE desktop more.
 ```bash
   sudo dd if=xubuntu-18.04.5-desktop-i386.iso of=/dev/sda bs=4M && sudo sync
 ```
+
 ---
-## 2) On-Site on the Nucore PC
+
+## B) On-Site on the Nucore PC
 ### Boot from USB Stick and Install Xubuntu
 - **user:** nucore
 - **password:** nucore
@@ -37,7 +40,9 @@ sudo apt install update && sudo apt install openssh-server -y
 - /home/nucore/Downloads/nucore-2.25.3r-package-v003-wahcade.deb
 - /home/nucore/Downloads/nucore-lubuntu-system-configuration-package-v003-wahcade.deb
 
-## 3) Remote via SSH on the Nucore PC
+---
+
+## C) Remote via SSH on the Nucore PC
 ### Install Autologin
 ```bash
 sudo apt-get install lightdm-autologin-greeter -y
