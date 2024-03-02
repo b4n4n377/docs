@@ -20,6 +20,12 @@ sudo apt autoremove -y
 sudo reboot
 ```
 
+### 3 - Build and install AdvanceMAME from the sources
+Follow the insructions from https://www.advancemame.it/doc-build.
+```bash
+sudo apt-get update
+sudo apt-get install git autoconf automake libsdl2-dev libasound2-dev libfreetype6-dev zlib1g-dev libexpat1-dev libslang2-dev libncurses5-dev
+```
 
 
 
