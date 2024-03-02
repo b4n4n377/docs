@@ -27,5 +27,11 @@ sudo apt-get update
 sudo apt-get install git autoconf automake libsdl2-dev libasound2-dev libfreetype6-dev zlib1g-dev libexpat1-dev libslang2-dev libncurses5-dev
 ```
 
+```bash
+git clone https://github.com/amadvance/advancemame.git
+cd advancemame
+sh autogen.sh
+```
+
 
 
