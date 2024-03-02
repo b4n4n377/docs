@@ -33,5 +33,11 @@ cd advancemame
 sh autogen.sh
 ```
 
+```bash
+./configure
+make -j3
+sudo make install 
+```
+
 
 
