@@ -14,6 +14,9 @@ sudo rpi-imager
 ```
 
 ### 2 - Update the whole system
+```bash
+sudo apt update && sudo apt upgrade -y
+```
 
 
 
