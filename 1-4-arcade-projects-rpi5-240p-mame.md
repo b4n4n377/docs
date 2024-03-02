@@ -13,9 +13,11 @@ Install the latest Raspberry Pi OS 64-Bit on the SD card.
 sudo rpi-imager
 ```
 
-### 2 - Update the whole system
+### 2 - Update the whole system and reboot
 ```bash
 sudo apt update && sudo apt upgrade -y
+sudo apt autoremove -y
+sudo reboot
 ```
 
 
