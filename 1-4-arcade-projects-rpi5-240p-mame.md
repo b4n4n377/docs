@@ -44,7 +44,9 @@ https://forums.raspberrypi.com/viewtopic.php?t=363997
 
 ```bash
 sudo nano /boot/firmware/config.txt
+```
 
+```bash
 dtoverlay=vc4-kms-dpi-generic
 dtparam=clock-frequency=13500000
 dtparam=hactive=640,hfp=52,hsync=64,hbp=108
