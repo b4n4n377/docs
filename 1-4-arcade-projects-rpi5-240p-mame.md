@@ -39,5 +39,20 @@ make -j3
 sudo make install 
 ```
 
+### Enable 240P output
+https://forums.raspberrypi.com/viewtopic.php?t=363997
+
+```bash
+sudo nano /boot/firmware/config.txt
+
+dtoverlay=vc4-kms-dpi-generic
+dtparam=clock-frequency=13500000
+dtparam=hactive=640,hfp=52,hsync=64,hbp=108
+dtparam=vactive=240,vfp=26,vsync=3,vbp=43
+dtparam=hsync-invert,vsync-invert
+```
+
+
+
 
 
