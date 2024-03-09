@@ -20,7 +20,7 @@ sudo apt autoremove -y
 sudo reboot
 ```
 
-### 3 - Build and install AdvanceMAME from the sources
+### 3 - Build and install AdvanceMAME from the source
 Follow the insructions from https://www.advancemame.it/doc-build.
 ```bash
 sudo apt-get update
@@ -39,7 +39,7 @@ make -j3
 sudo make install 
 ```
 
-### Enable 240P output
+### 4 - Enable 240P output
 https://forums.raspberrypi.com/viewtopic.php?t=363997
 
 ```bash
@@ -47,14 +47,33 @@ sudo nano /boot/firmware/config.txt
 ```
 
 ```bash
-dtoverlay=vc4-kms-dpi-generic
+dtoverlay=vc4-kms-dpi-genericlibdrm-tests
 dtparam=clock-frequency=13500000
 dtparam=hactive=640,hfp=52,hsync=64,hbp=108
 dtparam=vactive=240,vfp=26,vsync=3,vbp=43
 dtparam=hsync-invert,vsync-invert
 ```
 
+### 5 - Build an Install AttractMode from the source
+```bash
+sudo apt install pkgconf libxrandr-dev libxcursor-dev libudev-dev libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libavformat-dev libfontconfig1-dev libfreetype6-dev libswscale-dev libswresample-dev libarchive-dev libjpeg-dev libglu1-mesa-dev libegl1-mesa-dev libdrm-dev libgbm-dev  libcurl4-gnutls-dev build-essential cmake git
+```
 
+```bash
+cd /home/pi/Downloads
+git clone https://github.com/oomek/attractplus.git
+cd attractplus
+```
 
+```bash
+make STATIC=1 USE_DRM=1 -j $(nproc)
+sudo make install
+```
 
+### 6 - Install additional tools
+
+#### modetest
+```bash
+sudo apt-get install libdrm-tests
+```
 
