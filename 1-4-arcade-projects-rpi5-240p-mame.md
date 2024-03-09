@@ -24,7 +24,7 @@ sudo reboot
 Follow the insructions from https://www.advancemame.it/doc-build.
 ```bash
 sudo apt-get update
-sudo apt-get install git autoconf automake libsdl2-dev libasound2-dev libfreetype6-dev zlib1g-dev libexpat1-dev libslang2-dev libncurses5-dev
+sudo apt-get install git autoconf automake libsdl2-dev libasound2-dev libfreetype6-dev zlib1g-dev libexpat1-dev libslang2-dev libncurses5-dev -y
 ```
 
 ```bash
@@ -62,7 +62,7 @@ dtparam=hsync-invert,vsync-invert
 - **Note:** libgbm-dev is needed too
 
 ```bash
-sudo apt install pkgconf libxrandr-dev libxcursor-dev libudev-dev libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libavformat-dev libfontconfig1-dev libfreetype6-dev libswscale-dev libswresample-dev libarchive-dev libjpeg-dev libglu1-mesa-dev libegl1-mesa-dev libdrm-dev libgbm-dev libcurl4-gnutls-dev build-essential cmake git
+sudo apt install pkgconf libxrandr-dev libxcursor-dev libudev-dev libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libavformat-dev libfontconfig1-dev libfreetype6-dev libswscale-dev libswresample-dev libarchive-dev libjpeg-dev libglu1-mesa-dev libegl1-mesa-dev libdrm-dev libgbm-dev libcurl4-gnutls-dev build-essential cmake git -y
 ```
 
 ```bash
