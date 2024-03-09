@@ -81,5 +81,10 @@ sudo make install
 #### modetest
 ```bash
 sudo apt-get install libdrm-tests
+
+wget https://nightly.builds.lakka.tv/2024-02-29_5.x/RPi5.aarch64/Lakka-RPi5.aarch64-devbuild-v5.x-20240229-4550e6a.img.gz
+7z x Lakka-RPi5.aarch64-devbuild-v5.x-20240229-4550e6a.img.gz
+rm Lakka-RPi5.aarch64-devbuild-v5.x-20240229-4550e6a.img.gz
+
 ```
 
