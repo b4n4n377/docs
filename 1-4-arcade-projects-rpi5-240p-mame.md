@@ -28,6 +28,7 @@ sudo apt-get install git autoconf automake libsdl2-dev libasound2-dev libfreetyp
 ```
 
 ```bash
+cd /home/pi/Downloads
 git clone https://github.com/amadvance/advancemame.git
 cd advancemame
 sh autogen.sh
