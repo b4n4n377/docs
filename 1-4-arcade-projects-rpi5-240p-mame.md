@@ -55,8 +55,13 @@ dtparam=hsync-invert,vsync-invert
 ```
 
 ### 5 - Build an Install AttractMode from the source
+- **AttractMode Discord:** https://discord.gg/86bB9dD
+- **Channel #raspberrypi**
+- **Pinned message from Substring** 01.02.2024 20:50
+- **Note:** libgbm-dev is needed too
+
 ```bash
-sudo apt install pkgconf libxrandr-dev libxcursor-dev libudev-dev libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libavformat-dev libfontconfig1-dev libfreetype6-dev libswscale-dev libswresample-dev libarchive-dev libjpeg-dev libglu1-mesa-dev libegl1-mesa-dev libdrm-dev libgbm-dev  libcurl4-gnutls-dev build-essential cmake git
+sudo apt install pkgconf libxrandr-dev libxcursor-dev libudev-dev libopenal-dev libflac-dev libvorbis-dev libgl1-mesa-dev libavformat-dev libfontconfig1-dev libfreetype6-dev libswscale-dev libswresample-dev libarchive-dev libjpeg-dev libglu1-mesa-dev libegl1-mesa-dev libdrm-dev libgbm-dev libcurl4-gnutls-dev build-essential cmake git
 ```
 
 ```bash
