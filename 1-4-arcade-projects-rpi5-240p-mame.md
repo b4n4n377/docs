@@ -40,6 +40,13 @@ make -j3
 sudo make install 
 ```
 
+```bash
+sed -i 's/device_video auto/device_video sdl/' ~/.advance/advmame.rc
+sed -i 's/device_sound auto/device_sound sdl/' ~/.advance/advmame.rc
+sed -i 's/device_keyboard auto/device_keyboard sdl/' ~/.advance/advmame.rc
+```
+
+
 ### 4 - Enable 240P output
 https://forums.raspberrypi.com/viewtopic.php?t=363997
 
