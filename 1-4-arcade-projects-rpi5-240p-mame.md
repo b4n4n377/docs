@@ -59,6 +59,7 @@ sed -i 's/device_keyboard auto/device_keyboard sdl/' ~/.advance/advmame.rc
 https://forums.raspberrypi.com/viewtopic.php?t=363997
 
 ```bash
+# scp generic_15.bin pi@IP:/lib/firmware/
 sudo nano /boot/firmware/config.txt
 ```
 
