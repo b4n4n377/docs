@@ -20,7 +20,15 @@ sudo apt autoremove -y
 sudo reboot
 ```
 
-### 3 - Build and install AdvanceMAME from the source
+### 3 - Set console login, verbose boot mode, remove boot splash screen
+```bash
+sudo systemctl set-default multi-user.target
+sudo sed -i 's/ splash//g' /boot/firmware/cmdline.txt
+sudo sed -i 's/ quiet//g' /boot/firmware/cmdline.txt
+sudo reboot
+```
+
+### 4 - Build and install AdvanceMAME from the source
 Follow the insructions from https://www.advancemame.it/doc-build.
 ```bash
 sudo apt-get update
@@ -47,7 +55,7 @@ sed -i 's/device_keyboard auto/device_keyboard sdl/' ~/.advance/advmame.rc
 ```
 
 
-### 4 - Enable 240P output
+### 5 - Enable 240P output
 https://forums.raspberrypi.com/viewtopic.php?t=363997
 
 ```bash
@@ -62,7 +70,7 @@ dtparam=vactive=240,vfp=26,vsync=3,vbp=43
 dtparam=hsync-invert,vsync-invert
 ```
 
-### 5 - Build an Install AttractMode from the source
+### 6 - Build an Install AttractMode from the source
 - **AttractMode Discord:** https://discord.gg/86bB9dD
 - **Channel #raspberrypi**
 - **Pinned message from Substring** 01.02.2024 20:50
@@ -83,7 +91,7 @@ make STATIC=1 USE_DRM=1 -j $(nproc)
 sudo make install
 ```
 
-### 6 - Install additional tools
+### 7 - Install additional tools
 
 #### modetest
 ```bash
