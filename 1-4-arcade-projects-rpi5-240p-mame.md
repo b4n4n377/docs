@@ -94,6 +94,8 @@ sudo make install
 
 ### 7 - Install additional tools
 
+sudo rpi-update
+
 #### modetest
 ```bash
 sudo apt-get install libdrm-tests
