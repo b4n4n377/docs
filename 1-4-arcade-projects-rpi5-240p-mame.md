@@ -71,7 +71,51 @@ dtparam=vactive=240,vfp=26,vsync=3,vbp=43
 dtparam=hsync-invert,vsync-invert
 ```
 
-### 6 - Build an Install AttractMode from the source
+### 6 - Install Retroarch from the source
+
+```bash
+# Install git & rsync
+sudo apt install git -y
+sudo apt install rsync -y
+
+# List of required packages listed at https://docs.libretro.com/guides/rpi/
+required_packages=(
+    "build-essential # Essential packages for building"
+    "libudev-dev # udev library development files"
+    "libegl-dev # EGL library development files"
+    "libgles-dev # GLES library development files"
+    "libx11-xcb-dev # X11 XCB library development files"
+    "libpulse-dev # PulseAudio library development files"
+    "libasound2-dev # ALSA library development files"
+    "libvulkan-dev # Vulkan library development files"
+    "mesa-vulkan-drivers # Vulkan drivers provided by Mesa"
+    "libavcodec-dev # AVCodec library development files"
+    "libavdevice-dev # AVDevice library development files"
+    "libavformat-dev # AVFormat library development files"
+    "libavresample-dev # AVResample library development files"
+    "libdrm-dev # Direct Rendering Manager development files"
+    "libfreetype6-dev # FreeType library development files"
+    "libgbm-dev # GBM library development files"
+    "libgles2-mesa-dev # Mesa development files for GLES2"
+    "libsdl2-dev # SDL2 library development files"
+    "libswresample-dev # Software Resample library development files"
+    "libswscale-dev # Software Scale library development files"
+    "libv4l-dev # Video4Linux library development files"
+    "libxkbcommon-dev # XKBCommon library development files"
+    "libxml2-dev # XML2 library development files"
+    "yasm # YASM Modular Assembler"
+    "zlib1g-dev # zlib compression library development files"
+)
+
+
+for package in "${official_packages[@]}"; do
+  package_name=$(echo $package | cut -d ' ' -f 1) # Extract package name
+  echo "Installing $package_name..."
+  sudo apt install -y $package_name
+done
+```
+
+### 7 - Build an Install AttractMode from the source
 - **AttractMode Discord:** https://discord.gg/86bB9dD
 - **Channel #raspberrypi**
 - **Pinned message from Substring** 01.02.2024 20:50
@@ -92,7 +136,7 @@ make STATIC=1 USE_DRM=1 -j $(nproc)
 sudo make install
 ```
 
-### 7 - Install additional tools
+### 8 - Install additional tools
 
 sudo rpi-update
 
