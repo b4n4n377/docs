@@ -118,7 +118,21 @@ cd ~/Downloads/
 git clone --depth 1 https://github.com/libretro/RetroArch.git -b $latest_tag
 cd RetroArch
 ```
+#### Configure
 
+```bash
+./configure \
+--disable-videocore # Disables the legacy Broadcom video core graphics stack \
+--disable-opengl1 # Disables OpenGL 1.x support, not needed for modern systems \
+--enable-opengles # Enables support for OpenGL ES, a more efficient version for embedded systems \
+--enable-opengles3 # Enables OpenGL ES 3.x support for advanced graphics features \
+--enable-opengles3_1 # Specifically enables OpenGL ES 3.1 features \
+--enable-vulkan # Enables Vulkan support, a modern graphics API for high performance \
+--enable-kms # Enables Kernel Mode Setting support, for console-based operation without X11 \
+--enable-egl # Enables support for the EGL rendering API, required for KMS \
+--enable-pulse # Enables PulseAudio support, a sound system for POSIX OSes \
+--enable-udev # Enables udev support for device management
+```
 
 
 ### 7 - Build an Install AttractMode from the source
