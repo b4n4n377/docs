@@ -107,6 +107,19 @@ sudo apt install libxml2-dev -y # XML2 library development files
 sudo apt install yasm -y # YASM Modular Assembler
 sudo apt install zlib1g-dev -y # zlib compression library development files
 ```
+#### Fetch the latest retroarch sources
+
+```bash
+# Fetch the latest tag from the RetroArch GitHub repository
+latest_tag=$(curl -s https://api.github.com/repos/libretro/RetroArch/tags | grep 'name' | head -1 | sed -E 's/.*"([^"]+)".*/\1/')
+
+# Clone RetroArch using the latest tag
+cd ~/Downloads/
+git clone --depth 1 https://github.com/libretro/RetroArch.git -b $latest_tag
+cd RetroArch
+```
+
+
 
 ### 7 - Build an Install AttractMode from the source
 - **AttractMode Discord:** https://discord.gg/86bB9dD
