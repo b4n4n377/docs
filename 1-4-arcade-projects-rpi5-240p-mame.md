@@ -121,7 +121,12 @@ cd RetroArch
 #### Configure
 
 ```bash
-./configure \
+CFLAGS='-march=armv8-a+crc+simd # Use ARMv8-A architecture with CRC and SIMD extensions \
+-mcpu=cortex-a72 # Optimize for Cortex-A72 CPU \
+-mtune=cortex-a72 # Tune the code for Cortex-A72 CPU \
+-mfloat-abi=hard # Use hardware floating-point operations \
+-mfpu=neon-fp-armv8' # Enable ARMv8 NEON instructions for SIMD' \
+CXXFLAGS="${CFLAGS}" ./configure \
 --disable-videocore # Disables the legacy Broadcom video core graphics stack \
 --disable-opengl1 # Disables OpenGL 1.x support, not needed for modern systems \
 --enable-opengles # Enables support for OpenGL ES, a more efficient version for embedded systems \
