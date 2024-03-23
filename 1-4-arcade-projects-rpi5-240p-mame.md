@@ -140,6 +140,7 @@ CFLAGS='-march=armv8-a+crc+simd -mcpu=cortex-a72 -mtune=cortex-a72 -mfloat-abi=h
 #### Make
 ```bash
 make -j4
+sudo make install
 ```
 
 ### 7 - Build an Install AttractMode from the source
