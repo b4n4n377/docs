@@ -73,46 +73,39 @@ dtparam=hsync-invert,vsync-invert
 
 ### 6 - Install Retroarch from the source
 
+#### Install git & rsync
 ```bash
-# Install git & rsync
 sudo apt install git -y
 sudo apt install rsync -y
+```
+#### Install required packages listed at https://docs.libretro.com/guides/rpi/
 
-# List of required packages listed at https://docs.libretro.com/guides/rpi/
-required_packages=(
-    "build-essential # Essential packages for building"
-    "libudev-dev # udev library development files"
-    "libegl-dev # EGL library development files"
-    "libgles-dev # GLES library development files"
-    "libx11-xcb-dev # X11 XCB library development files"
-    "libpulse-dev # PulseAudio library development files"
-    "libasound2-dev # ALSA library development files"
-    "libvulkan-dev # Vulkan library development files"
-    "mesa-vulkan-drivers # Vulkan drivers provided by Mesa"
-    "libavcodec-dev # AVCodec library development files"
-    "libavdevice-dev # AVDevice library development files"
-    "libavformat-dev # AVFormat library development files"
-    "libavresample-dev # AVResample library development files"
-    "libdrm-dev # Direct Rendering Manager development files"
-    "libfreetype6-dev # FreeType library development files"
-    "libgbm-dev # GBM library development files"
-    "libgles2-mesa-dev # Mesa development files for GLES2"
-    "libsdl2-dev # SDL2 library development files"
-    "libswresample-dev # Software Resample library development files"
-    "libswscale-dev # Software Scale library development files"
-    "libv4l-dev # Video4Linux library development files"
-    "libxkbcommon-dev # XKBCommon library development files"
-    "libxml2-dev # XML2 library development files"
-    "yasm # YASM Modular Assembler"
-    "zlib1g-dev # zlib compression library development files"
-)
-
-
-for package in "${official_packages[@]}"; do
-  package_name=$(echo $package | cut -d ' ' -f 1) # Extract package name
-  echo "Installing $package_name..."
-  sudo apt install -y $package_name
-done
+```bash
+sudo apt install build-essential -y # Essential packages for building
+sudo apt install libudev-dev -y # udev library development files
+sudo apt install libegl-dev -y # EGL library development files
+sudo apt install libgles-dev -y # GLES library development files
+sudo apt install libx11-xcb-dev -y # X11 XCB library development files
+sudo apt install libpulse-dev -y # PulseAudio library development files
+sudo apt install libasound2-dev -y # ALSA library development files
+sudo apt install libvulkan-dev -y # Vulkan library development files
+sudo apt install mesa-vulkan-drivers -y # Vulkan drivers provided by Mesa
+sudo apt install libavcodec-dev -y # AVCodec library development files
+sudo apt install libavdevice-dev -y # AVDevice library development files
+sudo apt install libavformat-dev -y # AVFormat library development files
+sudo apt install libavresample-dev -y # AVResample library development files
+sudo apt install libdrm-dev -y # Direct Rendering Manager development files
+sudo apt install libfreetype6-dev -y # FreeType library development files
+sudo apt install libgbm-dev -y # GBM library development files
+sudo apt install libgles2-mesa-dev -y # Mesa development files for GLES2
+sudo apt install libsdl2-dev -y # SDL2 library development files
+sudo apt install libswresample-dev -y # Software Resample library development files
+sudo apt install libswscale-dev -y # Software Scale library development files
+sudo apt install libv4l-dev -y # Video4Linux library development files
+sudo apt install libxkbcommon-dev -y # XKBCommon library development files
+sudo apt install libxml2-dev -y # XML2 library development files
+sudo apt install yasm -y # YASM Modular Assembler
+sudo apt install zlib1g-dev -y # zlib compression library development files
 ```
 
 ### 7 - Build an Install AttractMode from the source
