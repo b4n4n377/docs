@@ -79,7 +79,6 @@ sudo apt install git -y
 sudo apt install rsync -y
 ```
 #### Install required packages listed at https://docs.libretro.com/guides/rpi/
-
 ```bash
 sudo apt install build-essential -y # Essential packages for building
 sudo apt install libudev-dev -y # udev library development files
@@ -108,7 +107,6 @@ sudo apt install yasm -y # YASM Modular Assembler
 sudo apt install zlib1g-dev -y # zlib compression library development files
 ```
 #### Fetch the latest retroarch sources
-
 ```bash
 # Fetch the latest tag from the RetroArch GitHub repository
 latest_tag=$(curl -s https://api.github.com/repos/libretro/RetroArch/tags | grep 'name' | head -1 | sed -E 's/.*"([^"]+)".*/\1/')
@@ -119,26 +117,30 @@ git clone --depth 1 https://github.com/libretro/RetroArch.git -b $latest_tag
 cd RetroArch
 ```
 #### Configure
-
 ```bash
-CFLAGS='-march=armv8-a+crc+simd # Use ARMv8-A architecture with CRC and SIMD extensions \
--mcpu=cortex-a72 # Optimize for Cortex-A72 CPU \
--mtune=cortex-a72 # Tune the code for Cortex-A72 CPU \
--mfloat-abi=hard # Use hardware floating-point operations \
--mfpu=neon-fp-armv8' # Enable ARMv8 NEON instructions for SIMD' \
-CXXFLAGS="${CFLAGS}" ./configure \
---disable-videocore # Disables the legacy Broadcom video core graphics stack \
---disable-opengl1 # Disables OpenGL 1.x support, not needed for modern systems \
---enable-opengles # Enables support for OpenGL ES, a more efficient version for embedded systems \
---enable-opengles3 # Enables OpenGL ES 3.x support for advanced graphics features \
---enable-opengles3_1 # Specifically enables OpenGL ES 3.1 features \
---enable-vulkan # Enables Vulkan support, a modern graphics API for high performance \
---enable-kms # Enables Kernel Mode Setting support, for console-based operation without X11 \
---enable-egl # Enables support for the EGL rendering API, required for KMS \
---enable-pulse # Enables PulseAudio support, a sound system for POSIX OSes \
---enable-udev # Enables udev support for device management
-```
+# -march=armv8-a+crc+simd   > Use ARMv8-A architecture with CRC and SIMD extensions
+# -mcpu=cortex-a72          > Optimize for Cortex-A72 CPU
+# -mtune=cortex-a72         > Tune the code for Cortex-A72 CPU
+# -mfloat-abi=hard          > Use hardware floating-point operations
+# -mfpu=neon-fp-armv8       > Enable ARMv8 NEON instructions for SIMD
 
+# --disable-videocore       > Disables the legacy Broadcom video core graphics stack \
+# --disable-opengl1         > Disables OpenGL 1.x support, not needed for modern systems \
+# --enable-opengles         > Enables support for OpenGL ES, a more efficient version for embedded systems \
+# --enable-opengles3        > Enables OpenGL ES 3.x support for advanced graphics features \
+# --enable-opengles3_1      > Specifically enables OpenGL ES 3.1 features \
+# --enable-vulkan           > Enables Vulkan support, a modern graphics API for high performance \
+# --enable-kms              > Enables Kernel Mode Setting support, for console-based operation without X11 \
+# --enable-egl              > Enables support for the EGL rendering API, required for KMS \
+# --enable-pulse            > Enables PulseAudio support, a sound system for POSIX OSes \
+# --enable-udev             > Enables udev support for device management
+
+CFLAGS='-march=armv8-a+crc+simd -mcpu=cortex-a72 -mtune=cortex-a72 -mfloat-abi=hard -mfpu=neon-fp-armv8' CXXFLAGS="${CFLAGS}" ./configure --disable-videocore --disable-opengl1 --enable-opengles --enable-opengles3 --enable-opengles3_1 --enable-vulkan --enable-kms --enable-egl --enable-pulse --enable-udev
+```
+#### Make
+```bash
+make -j4
+```
 
 ### 7 - Build an Install AttractMode from the source
 - **AttractMode Discord:** https://discord.gg/86bB9dD
