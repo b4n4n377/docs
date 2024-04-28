@@ -30,3 +30,7 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214457_628.jpg)
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214508_885.jpg)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/326287561-faa839e2-0421-4b74-a7b5-8129e149feab.png)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/326287573-0484bda0-53e2-4d1a-847b-ff154bf46259.png)
