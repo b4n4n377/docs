@@ -24,9 +24,13 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 
 ## Adapters
 
+A Setsite, a Chipsite, a Site40 and a Site48 were also supplied.
+
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214411_114.jpg)
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214426_295.jpg)
+
+Unfortunately, the foam had already dissolved at Site40 and Site48. When I tried to remove it with a cleaning agent that was too harsh, it attacked the plastic. To save them, I painted them both - not great, but better than before.
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214457_628.jpg)
 
