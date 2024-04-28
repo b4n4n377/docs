@@ -20,3 +20,13 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_230408_602.jpg)
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_225052_028.jpg)
+
+
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214411_114.jpg)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214426_295.jpg)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214457_628.jpg)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214508_885.jpg)
