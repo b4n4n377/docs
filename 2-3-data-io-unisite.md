@@ -11,12 +11,14 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 
 ## The Device itself
 
-![](https://github.com/b4n4n377/docs/blob/main/img/IMG_20240404_234322_702.jpg)
+https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_222511_299.jpg
 
-![](https://github.com/b4n4n377/docs/blob/main/img/IMG_20240404_233720_044.jpg)
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_234322_702.jpg)
 
-![](https://github.com/b4n4n377/docs/blob/main/img/IMG_20240404_233528_857.jpg)
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_233720_044.jpg)
 
-![](https://github.com/b4n4n377/docs/blob/main/img/IMG_20240404_230408_602.jpg)
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_233528_857.jpg)
 
-![](https://github.com/b4n4n377/docs/blob/main/img/IMG_20240404_225052_028.jpg)
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_230408_602.jpg)
+
+![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_225052_028.jpg)
