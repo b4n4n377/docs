@@ -9,7 +9,7 @@ nav_order: 1
 
 Actually, I don't really need it, I already have several Eprom programmers, but I was so interested in a Data I/O Unisite that I had to get it. 
 
-## The Device itself
+## The main device
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_234322_702.jpg)
 
@@ -22,6 +22,7 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240404_225052_028.jpg)
 
 
+## Adapters
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214411_114.jpg)
 
@@ -30,6 +31,8 @@ Actually, I don't really need it, I already have several Eprom programmers, but 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214457_628.jpg)
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/IMG_20240428_214508_885.jpg)
+
+## Terminal
 
 ![](https://raw.githubusercontent.com/b4n4n377/docs/main/img/326287561-faa839e2-0421-4b74-a7b5-8129e149feab.png)
 
