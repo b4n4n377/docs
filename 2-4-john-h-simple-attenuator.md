@@ -6,7 +6,7 @@ nav_order: 1
 ---
 
 # JohnH Simple Attenuator
-At the end of 2024, I purchased a **Marshall SV20H**, the modern reissue of the legendary **Plexi amplifier**. 
+At the end of 2024, I purchased a **Marshall SV20H**, the modern reissue of the legendary **Plexi tube amplifier**. 
 
 The classic tone of this amplifier is achieved when the **power tubes are pushed into saturation**, causing them to overdrive. However, this requires **high volume** levels.
 
