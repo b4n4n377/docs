@@ -18,5 +18,5 @@ To enjoy this classic circuit at moderate volumes, I first explored the concept 
 
 - **Reactive attenuators** simulate the impedance curve of a speaker, preserving more of the amp's natural tone and feel, but they are often more complex and expensive.
 
-At this point, I would like to document how I came across the DIY resistive attenuator design from JohnH on the Marshall Forum (see https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/).
+At this point, I would like to document how I came across the DIY resistive attenuator design from JohnH on the Marshall Forum (see https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/). All needed information can be found in the forum thread. Here, I aim to condense the now as of December 2024 >220 thread pages for my own reference, preparing and documenting the parts ordering and assembly process.
 
