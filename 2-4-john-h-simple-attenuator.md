@@ -34,44 +34,44 @@ A summarized overview of the design, which is shown in the following graphic, ca
 ### Stage 1
 | Part | Description | Source Webshop |     
 | --- | --- | --- |     
-| L1 | Inductor 0.9 mH, 18 awg | --- |
-| R1 | Resistor 15 Ω, 100 Watt | --- |
-| R2A | Resistor 22 Ω, 50 Watt | --- |
-| R2B | Resistor 18 Ω, 50 Watt | --- |
+| L1 | Inductor 0.9 mH, 18 awg | [distrelec.de]() |
+| R1 | Resistor 15 Ω, 100 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-100w-15ohm-rnd-rnd-155100-15r/p/30085096) |
+| R2A | Resistor 22 Ω, 50 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-50w-22ohm-rnd-rnd-15550-22r/p/30085225) |
+| R2B | Resistor 18 Ω, 50 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-50w-18ohm-rnd-rnd-15550-18r/p/30085215) |
 
 ### Stage 2
 | Part | Description | Source Webshop |     
 | --- | --- | --- |  
-| R5 | Resistor 4.7 Ω, 25 Watt | --- |
-| R6 | Resistor 15 Ω, 25 Watt | --- |
+| R5 | Resistor 4.7 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-7ohm-rnd-rnd-15525-4r7/p/30085175) |
+| R6 | Resistor 15 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-15ohm-rnd-rnd-15525-15r/p/30085142) |
 
 ### Stage 3
 | Part | Description | Source Webshop |     
 | --- | --- | --- |
-| R3 | Resistor 15 Ω, 25 Watt | --- |
-| R4 | Resistor 10 Ω, 25 Watt | --- |
+| R3 | Resistor 15 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-15ohm-rnd-rnd-15525-15r/p/30085142) |
+| R4 | Resistor 10 Ω, 25 Watt | [distrelec.de]() |
 
 ### Stage 4 
 | Part | Description | Source Webshop |     
 | --- | --- | --- |
-| R7 | Resistor 33 Ω, 25 Watt | --- |
-| R8 | Resistor 5.6 Ω, 25 Watt | --- |
+| R7 | Resistor 33 Ω, 25 Watt | [distrelec.de]() |
+| R8 | Resistor 5.6 Ω, 25 Watt | [distrelec.de]() |
 
 ### General Parts
 | Part | Description | Source Webshop |     
 | --- | --- | --- |
 | Case | Hammond 1590DE | [reichelt.de](https://www.reichelt.de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html) |
 | R9 | Resistor 22 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-22ohm-arcol-hs25-22r/p/30116034) |
-| R10 | Resistor 68 Ω, 25 Watt | --- |
-| R11 | Resistor 10 Ω, 25 Watt | --- |
-| R12 | Resistor 5000 Ω, 25 Milliwatt | --- |
-| R13 | Resistor 5000 Ω, 2 Watt | --- |
-| Amp Input | Jack | --- |
-| Speaker Output 1 | Jack | --- |
-| Speaker Output 3 | Jack | --- |
-| Speaker Output 3 | Jack | --- |
-| Speaker Output 3 | Jack | --- |
-| Line Output | Jack | --- |
+| R10 | Resistor 68 Ω, 25 Watt | [distrelec.de]() |
+| R11 | Resistor 10 Ω, 25 Watt | [distrelec.de]() |
+| R12 | Resistor 5000 Ω, 25 Milliwatt | [distrelec.de]() |
+| R13 | Resistor 5000 Ω, 2 Watt | [distrelec.de]() |
+| Amp Input | Jack | [distrelec.de]() |
+| Speaker Output 1 | Jack | [distrelec.de]() |
+| Speaker Output 3 | Jack | [distrelec.de]() |
+| Speaker Output 3 | Jack | [distrelec.de]() |
+| Speaker Output 3 | Jack | [distrelec.de]() |
+| Line Output | Jack | [distrelec.de]() |
 
 
 
