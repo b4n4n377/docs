@@ -29,29 +29,92 @@ A summarized overview of the design, which is shown in the following graphic, ca
     <p><em>[Source: <a href="https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/" target="_blank">First page Marshall Forum Thread</a>]</em></p>
 </div>
 
-## Parts list
+## Parts List
 
-| Sektion | Part | Description | Source Webshop |        
-| --- | --- | --- |
-| Case, Outputs, Line Out | Case | Hammond 1590DE | [https://www.reichelt.de/](https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1)| 
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Case, Outputs, Line Out | --- | --- |
-| Stage 1 | --- | --- |
-| Stage 1 | --- | --- |
-| Stage 1 | --- | --- |
-| Stage 1 | --- | --- |
-| Stage 2 | --- | --- |
-| Stage 2 | --- | --- |
-| Stage 3 | --- | --- |
-| Stage 3 | --- | --- |
-| Stage 4 | --- | --- |
-| Stage 4 | --- | --- |
+<table>
+    <tr>
+        <th>Section</th>
+        <th>Part</th>
+        <th>Description</th>
+        <th>Source Webshop</th>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Case</td>
+        <td>Hammond 1590DE</td>
+        <td><a href="https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1">Reichelt - Hammond 1590DE</a></td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Resistor R9</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Resistor R10</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Resistor R11</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Resistor R12</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Resistor R13</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Jack In</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Jack Out 1</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Jack Out 2</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Jack Out 3</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="case" style="background-color: #f0f8ff;">
+        <td>Case, Outputs, Line Out</td>
+        <td>Jack Line Out</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="stage1" style="background-color: #e6ffe6;">
+        <td>Stage 1</td>
+        <td>Inductor L1</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr class="stage1" style="background-color: #e6ffe6;">
+        <td>Stage 1</td>
+        <td>Resistor R1</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+</table>
+
