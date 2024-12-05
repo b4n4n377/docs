@@ -33,6 +33,6 @@ A summarized overview of the design, which is shown in the following graphic, ca
 
 | Part | Description    | Source Webshop                                                                                                                                                |        
 | -----| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Case | Hammond 1590DE | https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1 |
+| Case | Hammond 1590DE | [https://www.reichelt.de/](https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1) |
 | L1   |                |                                                                                                                                                               | 
 |      |                |                                                                                                                                                               |       
