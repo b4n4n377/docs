@@ -60,7 +60,7 @@ A summarized overview of the design, which is shown in the following graphic, ca
 ### General Parts
 | Part | Description | Source Webshop |     
 | --- | --- | --- |
-| Case | Hammond | --- |
+| Case | Hammond 1590DE | [reichelt.de](https://www.reichelt.de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html) |
 | R9 | Resistor 22 Ω, 25 Watt | --- |
 | R10 | Resistor 68 Ω, 25 Watt | --- |
 | R11 | Resistor 10 Ω, 25 Watt | --- |
