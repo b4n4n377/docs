@@ -4,8 +4,9 @@ parent: Hardware-Stuff
 has_children: false
 nav_order: 1
 ---
+# JohnH Simple Attenuator Build
 
-# JohnH Simple Attenuator
+## Project abstract
 At the end of 2024, I purchased a **Marshall SV20H**, the modern reissue of the legendary **Plexi tube amplifier**. 
 
 The classic tone of this amplifier is achieved when the **power tubes are pushed into saturation**, causing them to overdrive. However, this requires **high volume** levels.
@@ -19,4 +20,11 @@ To enjoy this classic circuit at moderate volumes, I first explored the concept 
 - **Reactive attenuators** simulate the impedance curve of a speaker, preserving more of the amp's natural tone and feel, but they are often more complex and expensive.
 
 At this point, I would like to document how I came across the [**reactive attenuator design from JohnH on the Marshall Forum**](https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/). All needed information can be found in the forum thread. Here, I aim to condense the now as of December 2024 >220 thread pages for my own reference, preparing and documenting the parts ordering and assembly process.
+
+## Design overview
+
+
+
+## Parts list
+
 
