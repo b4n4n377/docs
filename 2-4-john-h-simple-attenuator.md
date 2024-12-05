@@ -22,7 +22,7 @@ To enjoy this classic circuit at moderate volumes, I first explored the concept 
 At this point, I would like to document how I came across the [**reactive attenuator design from JohnH on the Marshall Forum**](https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/). All needed information can be found in the forum thread. Here, I aim to condense the now as of December 2024 >220 thread pages for my own reference, preparing and documenting the parts ordering and assembly process.
 
 ## Design overview
-
+A summarized overview of the design, which is shown in the following graphic, can be found directly on the first page of the Marshall Forum thread.
 <div style="text-align: center;">
     <img src="https://raw.githubusercontent.com/b4n4n377/docs/main/img/M2_221024.gif" alt="Beschreibung des Bildes" style="border: 2px solid white; padding: 5px;">
     <p><em>(Source: https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/)</em></p>
