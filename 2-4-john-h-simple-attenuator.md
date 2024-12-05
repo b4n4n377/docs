@@ -31,6 +31,27 @@ A summarized overview of the design, which is shown in the following graphic, ca
 
 ## Parts list
 
-| Sektion | Part | Description    | Source Webshop                                                                                                                                                |        
-| -----| -----| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Case, Outputs, Line Out | Case | Hammond 1590DE | [https://www.reichelt.de/](https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1)                                                                                                                                            |       
+| Sektion | Part | Description | Source Webshop |        
+| --- | --- | --- |
+| Case, Outputs, Line Out | Case | Hammond 1590DE | [https://www.reichelt.de/](https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html?utm_source=psuma&utm_medium=geizhals.de&PROVID=2&&r=1)| 
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Case, Outputs, Line Out | --- | --- |
+| Stage 1 | --- | --- |
+| Stage 1 | --- | --- |
+| Stage 1 | --- | --- |
+| Stage 1 | --- | --- |
+| Stage 2 | --- | --- |
+| Stage 2 | --- | --- |
+| Stage 3 | --- | --- |
+| Stage 3 | --- | --- |
+| Stage 4 | --- | --- |
+| Stage 4 | --- | --- |
