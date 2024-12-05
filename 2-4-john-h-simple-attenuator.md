@@ -23,10 +23,12 @@ At this point, I would like to document how I came across the [**reactive attenu
 
 ## Design overview
 A summarized overview of the design, which is shown in the following graphic, can be found directly on the first page of the Marshall Forum thread.
+
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/b4n4n377/docs/main/img/M2_221024.gif" alt="Beschreibung des Bildes" style="border: 2px solid white; padding: 5px;">
-    <p><em>(Source: https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/)</em></p>
+    <img src="https://raw.githubusercontent.com/b4n4n377/docs/main/img/M2_221024.gif" alt="Graphic showing the attenuator design" style="border: 2px solid white; padding: 5px; max-width: 100%; height: auto;">
+    <p><em>[Source: <a href="https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/" target="_blank">First page Marshall Forum Thread</a>]</em></p>
 </div>
+
 
 
 
