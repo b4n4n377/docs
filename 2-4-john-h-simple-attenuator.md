@@ -24,8 +24,8 @@ At this point, I would like to document how I came across the [**reactive attenu
 ## Design overview
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/b4n4n377/docs/main/img/M2_221024.gif" alt="Beschreibung des Bildes" style="border: 2px solid #000; padding: 5px; max-width: 100%; height: auto;">
-    <p><em>Abb. 1: Beschreibung des Bildes.</em></p>
+    <img src="https://raw.githubusercontent.com/b4n4n377/docs/main/img/M2_221024.gif" alt="Beschreibung des Bildes" style="border: 2px solid white; padding: 5px;">
+    <p><em>(Source: https://marshallforum.com/threads/simple-attenuators-design-and-testing.98285/)</em></p>
 </div>
 
 
