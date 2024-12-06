@@ -49,6 +49,8 @@ At this point I am documenting a parts list for online stores that are located i
 | 1x       | R10        | 68Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-68ohm-rnd-rnd-15525-68r/p/30085181) |
 | 5x       | Jack       | In + Out 1-4             | [Neutrik NMJ3HF-S - Thomann](https://www.thomann.de/de/neutrik_nmj3hf_s.htm)                  |
 
+## Assembly
+More to come ...
 
 
 
