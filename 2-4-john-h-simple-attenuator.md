@@ -30,48 +30,25 @@ A summarized overview of the design, which is shown in the following graphic, ca
 </div>
 
 ## Parts List
+At this point I am documenting a parts list for online stores that are located in Germany like me to shorten the waiting time for delivery.
 
-### Stage 1
-| Part | Description | Source Webshop |     
-| --- | --- | --- |     
-| L1 | Inductor 0.9 mH, 18 awg | [distrelec.de]() |
-| R1 | Resistor 15 Ω, 100 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-100w-15ohm-rnd-rnd-155100-15r/p/30085096) |
-| R2A | Resistor 22 Ω, 50 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-50w-22ohm-rnd-rnd-15550-22r/p/30085225) |
-| R2B | Resistor 18 Ω, 50 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-50w-18ohm-rnd-rnd-15550-18r/p/30085215) |
+| Quantity | Component  | Specification            | Link                                                                                          |
+|----------|------------|--------------------------|-----------------------------------------------------------------------------------------------|
+| 1x       | Case       | Hammond 1590DE           | [Hammond 1590DE - Reichelt](https://www.reichelt.de/de/de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html) |
+| 3x       | Switch     | On/Off 10A 125V          | [Toggle Switch - Reichelt](https://www.reichelt.de/kippschalter-10a-125vac-1x-ein-aus-ms-165-p13139.html) |
+| 1x       | L1         | 0.9mH 18awg / 0.82mH 1mm | [Coil - Reichelt](https://www.reichelt.de/visaton-sp-spule-0-82-mh-1-0-mm-vis-sp-5013-p40659.html) |
+| 1x       | R1         | 15Ohm 100W               | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-100w-15ohm-rnd-rnd-155100-15r/p/30085096) |
+| 1x       | R2A        | 22Ohm 50W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-50w-22ohm-rnd-rnd-15550-22r/p/30085225) |
+| 1x       | R2B        | 18Ohm 50W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-50w-18ohm-rnd-rnd-15550-18r/p/30085215) |
+| 2x       | R3, R6     | 15Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-15ohm-rnd-rnd-15525-15r/p/30085142) |
+| 2x       | R4, R11    | 10Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-10ohm-rnd-rnd-15525-10r/p/30085136) |
+| 1x       | R5         | 4.7Ohm 25W               | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-7ohm-rnd-rnd-15525-4r7/p/30085175) |
+| 1x       | R7         | 33Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-33ohm-rnd-rnd-15525-33r/p/30085165) |
+| 1x       | R8         | 5.6Ohm 25W               | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-6ohm-rnd-rnd-15525-5r6/p/30085179) |
+| 1x       | R9         | 22Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-22ohm-rnd-rnd-15525-22r/p/30085156) |
+| 1x       | R10        | 68Ohm 25W                | [Wire Resistor - Distrelec](https://www.distrelec.de/de/drahtwiderstand-25w-68ohm-rnd-rnd-15525-68r/p/30085181) |
+| 5x       | Jack       | In + Out 1-4             | [Neutrik NMJ3HF-S - Thomann](https://www.thomann.de/de/neutrik_nmj3hf_s.htm)                  |
 
-### Stage 2
-| Part | Description | Source Webshop |     
-| --- | --- | --- |  
-| R5 | Resistor 4.7 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-7ohm-rnd-rnd-15525-4r7/p/30085175) |
-| R6 | Resistor 15 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-15ohm-rnd-rnd-15525-15r/p/30085142) |
-
-### Stage 3
-| Part | Description | Source Webshop |     
-| --- | --- | --- |
-| R3 | Resistor 15 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-15ohm-rnd-rnd-15525-15r/p/30085142) |
-| R4 | Resistor 10 Ω, 25 Watt | [distrelec.de]() |
-
-### Stage 4 
-| Part | Description | Source Webshop |     
-| --- | --- | --- |
-| R7 | Resistor 33 Ω, 25 Watt | [distrelec.de]() |
-| R8 | Resistor 5.6 Ω, 25 Watt | [distrelec.de]() |
-
-### General Parts
-| Part | Description | Source Webshop |     
-| --- | --- | --- |
-| Case | Hammond 1590DE | [reichelt.de](https://www.reichelt.de/alugehaeuse-1590-de-200-2-x-120-2-x-64-3-mm-aluminium-1590de-p221438.html) |
-| R9 | Resistor 22 Ω, 25 Watt | [distrelec.de](https://www.distrelec.de/en/wirewound-resistor-25w-22ohm-arcol-hs25-22r/p/30116034) |
-| R10 | Resistor 68 Ω, 25 Watt | [distrelec.de]() |
-| R11 | Resistor 10 Ω, 25 Watt | [distrelec.de]() |
-| R12 | Resistor 5000 Ω, 25 Milliwatt | [distrelec.de]() |
-| R13 | Resistor 5000 Ω, 2 Watt | [distrelec.de]() |
-| Amp Input | Jack | [distrelec.de]() |
-| Speaker Output 1 | Jack | [distrelec.de]() |
-| Speaker Output 3 | Jack | [distrelec.de]() |
-| Speaker Output 3 | Jack | [distrelec.de]() |
-| Speaker Output 3 | Jack | [distrelec.de]() |
-| Line Output | Jack | [distrelec.de]() |
 
 
 
